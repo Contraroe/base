@@ -1,15 +1,22 @@
 @import url(http://fonts.googleapis.com/css?family=Questrial|Varela+Round|Chewy|Lemon|Playball);
+/* line 18, ../__compass/sass/global.sass */
 html {
   height: 100%;
   margin: 0;
   padding: 0;
   width: 100%;
   font-size: 1.5em;
-  background: black; }
+}
 
+/* line 25, ../__compass/sass/global.sass */
 body {
   height: 100%;
   width: 100%;
   font-size: 100%;
   color: white;
-  font-weight: 900; }
+}
+
+/* line 31, ../__compass/sass/global.sass */
+p {
+  color: #93941c;
+}
