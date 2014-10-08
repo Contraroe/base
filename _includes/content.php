@@ -1,3 +1,3 @@
-<div ID="content">
+<div id="content">
 
 </div>

@@ -14,9 +14,10 @@ body {
   width: 100%;
   font-size: 100%;
   color: white;
+  text-align: center;
 }
 
-/* line 31, ../__compass/sass/global.sass */
+/* line 32, ../__compass/sass/global.sass */
 p {
-  color: black;
+  color: #d47f00;
 }
