@@ -1,0 +1,15 @@
+@import url(http://fonts.googleapis.com/css?family=Questrial|Varela+Round|Chewy|Lemon|Playball);
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-size: 1.5em;
+  background: black; }
+
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  color: white;
+  font-weight: 900; }
