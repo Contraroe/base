@@ -1,18 +1,7 @@
 // FONT IMPORT
-@import url(http://fonts.googleapis.com/css?family=Questrial|Varela+Round|Chewy|Lemon|Playball)
-// VARIABLES
-// Colors
-$zwart: rgba(0,0,0,1)
-$groen: rgba(147,148,28,1)
-$oranje: rgba(212,127,0,1)
-$rood: rgba(181,0,10,1)
-$blauw: rgba(0,80,163,1)
-// Fonts
-$font1: 'Questrial', sans-serif
-$font2: 'Varela Round', sans-serif
-$font3: 'Playball', cursive
-$font4: 'Lemon', cursive
-$font5: 'Chewy', cursive
+@import 'variables'
+@import 'mixins'
+
 // DESIGN
 // Base
 html
@@ -30,4 +19,15 @@ body
 	text-align: center
 
 p
-	color: $oranje
+	color: $wit
+	display: block
+	background: $vlees
+	padding: 50px
+	width: 50%
+	margin: auto
+	margin-top: 50px
+	@include br(10px)
+
+h1
+	@extend p
+	background: $turk

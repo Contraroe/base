@@ -1,5 +1,5 @@
-@import url(http://fonts.googleapis.com/css?family=Questrial|Varela+Round|Chewy|Lemon|Playball);
-/* line 18, ../__compass/sass/global.sass */
+@import url(http://fonts.googleapis.com/css?family=Abel|Cantata+One);
+/* line 7, ../__compass/sass/global.sass */
 html {
   height: 100%;
   margin: 0;
@@ -8,7 +8,7 @@ html {
   font-size: 1.5em;
 }
 
-/* line 25, ../__compass/sass/global.sass */
+/* line 14, ../__compass/sass/global.sass */
 body {
   height: 100%;
   width: 100%;
@@ -17,7 +17,22 @@ body {
   text-align: center;
 }
 
-/* line 32, ../__compass/sass/global.sass */
-p {
-  color: #d47f00;
+/* line 21, ../__compass/sass/global.sass */
+p, h1 {
+  color: white;
+  display: block;
+  background: #b2b296;
+  padding: 50px;
+  width: 50%;
+  margin: auto;
+  margin-top: 50px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+}
+
+/* line 31, ../__compass/sass/global.sass */
+h1 {
+  background: #33b2b2;
 }
