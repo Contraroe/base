@@ -18,7 +18,7 @@ body {
 }
 
 /* line 21, ../__compass/sass/global.sass */
-p, h1 {
+p, h1, #footer {
   color: white;
   display: block;
   background: #b2b296;
@@ -35,4 +35,15 @@ p, h1 {
 /* line 31, ../__compass/sass/global.sass */
 h1 {
   background: #33b2b2;
+}
+
+/* line 35, ../__compass/sass/global.sass */
+#footer {
+  width: 100%;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  border-radius: 0px;
+  position: absolute;
+  bottom: 0;
 }
