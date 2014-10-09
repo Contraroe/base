@@ -1,4 +1,8 @@
 // FONT IMPORT
+// REQUIRED
+@import 'susy'
+
+// PARTIALS
 @import 'variables'
 @import 'mixins'
 
@@ -25,12 +29,16 @@ p
 	padding: 50px
 	width: 50%
 	margin: auto
-	margin-top: 50px
+	margin-top: 25px
 	@include br(10px)
 
 h1
 	@extend p
 	background: $turk
+h2
+	@extend p
+	background: $zwart
+	color: $roze
 
 #footer
 	@extend p

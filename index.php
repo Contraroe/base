@@ -24,6 +24,7 @@
         <!-- Add your site or application content here -->
         <p>Start to grow</p>
         <h1>Test</h1>
+        <h2>Test2</h2>
 
         <?php include '_includes/footer.php' ?>
 
