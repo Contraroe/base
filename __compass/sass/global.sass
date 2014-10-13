@@ -3,11 +3,17 @@
 // DIT IS EEN TEST
 // test van imac naar macbook
 
-@import 'susy'
+
+@import susy
+$total-columns: 12 // a 12-column grid
+$column-width: 5em // each column is 5em wide
+$gutter-width: 1/4// 1em gutters between columns
+$grid-padding: $gutter-width
+$border-box-sizing: true
 
 // PARTIALS
-@import 'variables'
-@import 'mixins'
+@import variables
+@import mixins
 
 // DESIGN
 // Base
@@ -34,6 +40,7 @@ p
 	margin: auto
 	margin-top: 25px
 	@include br(10px)
+
 
 h1
 	@extend p

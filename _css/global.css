@@ -1,1 +1,55 @@
-@import url(http://fonts.googleapis.com/css?family=Abel|Cantata+One);html{height:100%;margin:0;padding:0;width:100%;font-size:1.5em}body{height:100%;width:100%;font-size:100%;color:#FFF;text-align:center}p,h1,h2,#footer{color:#fff;display:block;background:#b2b296;padding:50px;width:50%;margin:auto;margin-top:25px;-webkit-border-radius:10px;-moz-border-radius:10px;-ms-border-radius:10px;border-radius:10px}h1{background:#33b2b2}h2{background:#000;color:#ff3296}#footer{width:100%;-webkit-border-radius:0px;-moz-border-radius:0px;-ms-border-radius:0px;border-radius:0px;position:absolute;bottom:0}
+@import url(http://fonts.googleapis.com/css?family=Abel|Cantata+One);
+/* line 20, ../__compass/sass/global.sass */
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  font-size: 1.5em;
+}
+
+/* line 27, ../__compass/sass/global.sass */
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  color: #FFF;
+  text-align: center;
+}
+
+/* line 34, ../__compass/sass/global.sass */
+p, h1, h2, #footer {
+  color: white;
+  display: block;
+  background: #b2b296;
+  padding: 50px;
+  width: 50%;
+  margin: auto;
+  margin-top: 25px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  border-radius: 10px;
+}
+
+/* line 45, ../__compass/sass/global.sass */
+h1 {
+  background: #33b2b2;
+}
+
+/* line 48, ../__compass/sass/global.sass */
+h2 {
+  background: black;
+  color: #ff3296;
+}
+
+/* line 53, ../__compass/sass/global.sass */
+#footer {
+  width: 100%;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  -ms-border-radius: 0px;
+  border-radius: 0px;
+  position: absolute;
+  bottom: 0;
+}
