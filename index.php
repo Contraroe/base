@@ -32,10 +32,10 @@
 
 		</header>
 		<section class="one">
-			<div class="content_1 grey nav">test<br>test<br>test<br>test<br>test<br>test</div>
-			<div class="content_2">test</div>
-			<div class="content_3 grey">test</div>
-			<div class="content_4">test</div>
+			<div class="content_a1 nav">test<br>test<br>test<br>test</div>
+			<div class="content_a2">test</div>
+			<div class="content_a3 grey">test</div>
+			<div class="content_a4">test</div>
 
 
 
@@ -43,10 +43,10 @@
 		</section>
 		<section class="two">
 
-			<div class="content_1 grey nav">test<br>test<br>test<br>test<br>test<br>test</div>
-			<div class="content_2">test</div>
-			<div class="content_3 grey ">test</div>
-			<div class="content_4">test</div>
+			<div class="content_b1 nav">test<br>test<br>test<br>test</div>
+			<div class="content_b2">test</div>
+			<div class="content_b3 grey ">test</div>
+			<div class="content_b4">test</div>
 
 		</section>
 		<footer class="black">

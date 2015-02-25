@@ -8,7 +8,7 @@
 
 //SETTINGS
 $total-colums: 12
-$column-width: 4.25em
+$column-width: 10em
 $gutter-width: 10px
 $grid-padding: $gutter-width
 $math: fluid
@@ -25,6 +25,7 @@ $flow: ltr
 // DESIGN
 // Base
 
+@include border-box-sizing
 
 html
 	height: 100%
@@ -47,7 +48,6 @@ body
 
 nav, header, footer, section,div, #container
 	background: $turk_1
-	box-sizing: border-box
 	overflow: auto
 
 h1,h2,h3,h4,h5,h6
@@ -67,7 +67,7 @@ nav
 
 footer
 	width: 100%
-	height: 100px
+	height: 300px
 	line-height: 100px
 	margin-top: 10px
 
@@ -76,41 +76,58 @@ section
 	height: auto
 	background: $none
 	padding: 10px
-	@include container ($cont-desktop  $total-colums center fluid $flow)
+	@include container ($cont-desktop)
 	@media #{$mobile}
 		padding: 0px
 		@include container ($cont-mobile)
 	div
-		min-height: 100px
+		min-height: 150px
 		height: auto
-		background: $zwart_10
+		background: $zwart_1
 		padding: 1em
 		text-align: left
 		font-size: 70%
 		font-weight: lighter
 		margin-top: 10px
 		// @include br(5px)
-	.content_1
+	.content_a1
 		@include span (last 2 of $total-colums)
 		@media #{$mobile}
 			@include span ($total-colums of $total-colums)
-	.content_2
+	.content_a2
 		@include span (5 of $total-colums)
 		@media #{$mobile}
 			@include span (6 of $total-colums)
-	.content_3
+	.content_a3
 		@include span (5 of $total-colums)
 		@media #{$mobile}
 			@include span (last 6 of $total-colums)
-	.content_4
+	.content_a4
 		@include span (10 of $total-colums)
+		@media #{$mobile}
+			@include span ($total-colums of $total-colums)
+			display: none
+
+	.content_b1
+		@include span (first 2 of $total-colums)
+		@media #{$mobile}
+			@include span ($total-colums of $total-colums)
+	.content_b2
+		@include span (5 of $total-colums)
+		@media #{$mobile}
+			@include span (6 of $total-colums)
+	.content_b3
+		@include span (last 5 of $total-colums)
+		@media #{$mobile}
+			@include span (last 6 of $total-colums)
+	.content_b4
+		@include span (last 10 of $total-colums)
 		@media #{$mobile}
 			@include span ($total-colums of $total-colums)
 			display: none
 
 .grey
 	background: $zwart_3
-
 .black
 	background: $zwart_8
 .nav
