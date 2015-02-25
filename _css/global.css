@@ -1,55 +1,173 @@
 @import url(http://fonts.googleapis.com/css?family=Abel|Cantata+One);
-/* line 20, ../__compass/sass/global.sass */
+/* line 30, ../__compass/sass/global.sass */
 html {
   height: 100%;
   margin: 0;
   padding: 0;
   width: 100%;
-  font-size: 1.5em;
+  font-size: 1.3em;
+  font-weight: lighter;
+  font-family: sans-serif;
+  box-sizing: border-box;
 }
 
-/* line 27, ../__compass/sass/global.sass */
+/* line 40, ../__compass/sass/global.sass */
 body {
-  height: 100%;
+  position: relative;
+  height: auto;
   width: 100%;
-  font-size: 100%;
-  color: #FFF;
+  color: #fff;
   text-align: center;
+  background: rgba(51, 178, 178, 0.1);
 }
 
-/* line 34, ../__compass/sass/global.sass */
-p, h1, h2, #footer {
-  color: white;
-  display: block;
-  background: #b2b296;
-  padding: 50px;
-  width: 50%;
-  margin: auto;
-  margin-top: 25px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-  border-radius: 10px;
+/* line 49, ../__compass/sass/global.sass */
+nav, header, footer, section, div, #container {
+  background: rgba(51, 178, 178, 0.1);
+  box-sizing: border-box;
+  overflow: auto;
 }
 
-/* line 45, ../__compass/sass/global.sass */
-h1 {
-  background: #33b2b2;
+/* line 54, ../__compass/sass/global.sass */
+h1, h2, h3, h4, h5, h6 {
+  padding: 200;
 }
 
-/* line 48, ../__compass/sass/global.sass */
-h2 {
-  background: black;
-  color: #ff3296;
+/* line 57, ../__compass/sass/global.sass */
+header {
+  position: relative;
+  height: 500px;
+  margin-bottom: 5px;
 }
 
-/* line 53, ../__compass/sass/global.sass */
-#footer {
-  width: 100%;
-  -webkit-border-radius: 0px;
-  -moz-border-radius: 0px;
-  -ms-border-radius: 0px;
-  border-radius: 0px;
+/* line 63, ../__compass/sass/global.sass */
+nav {
   position: absolute;
   bottom: 0;
+  height: 70px;
+  line-height: 70px;
+  width: 100%;
+}
+
+/* line 70, ../__compass/sass/global.sass */
+footer {
+  width: 100%;
+  height: 100px;
+  line-height: 100px;
+  margin-top: 5px;
+}
+
+/* line 76, ../__compass/sass/global.sass */
+section {
+  min-height: 100px;
+  height: auto;
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 12, ../../../../../../Library/Ruby/Gems/1.8/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
+section:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+@media screen and (max-width: 500px) {
+  /* line 76, ../__compass/sass/global.sass */
+  section {
+    max-width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* line 12, ../../../../../../Library/Ruby/Gems/1.8/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
+  section:after {
+    content: " ";
+    display: block;
+    clear: both;
+  }
+}
+/* line 82, ../__compass/sass/global.sass */
+section div {
+  min-height: 100px;
+  height: auto;
+  background: black;
+  padding: 1em;
+  text-align: left;
+  font-size: 70%;
+  font-weight: lighter;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+/* line 92, ../__compass/sass/global.sass */
+section .content_1 {
+  width: 15.25424%;
+  float: right;
+  margin-right: 0;
+}
+@media screen and (max-width: 500px) {
+  /* line 92, ../__compass/sass/global.sass */
+  section .content_1 {
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+/* line 96, ../__compass/sass/global.sass */
+section .content_2 {
+  width: 40.67797%;
+  float: left;
+  margin-right: 1.69492%;
+}
+@media screen and (max-width: 500px) {
+  /* line 96, ../__compass/sass/global.sass */
+  section .content_2 {
+    width: 49.15254%;
+    float: left;
+    margin-right: 1.69492%;
+  }
+}
+/* line 100, ../__compass/sass/global.sass */
+section .content_3 {
+  width: 40.67797%;
+  float: left;
+  margin-right: 1.69492%;
+}
+@media screen and (max-width: 500px) {
+  /* line 100, ../__compass/sass/global.sass */
+  section .content_3 {
+    width: 49.15254%;
+    float: right;
+    margin-right: 0;
+  }
+}
+/* line 104, ../__compass/sass/global.sass */
+section .content_4 {
+  width: 83.05085%;
+  float: left;
+  margin-right: 1.69492%;
+}
+@media screen and (max-width: 500px) {
+  /* line 104, ../__compass/sass/global.sass */
+  section .content_4 {
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+    display: none;
+  }
+}
+
+/* line 110, ../__compass/sass/global.sass */
+.grey {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+/* line 113, ../__compass/sass/global.sass */
+.black {
+  background: rgba(0, 0, 0, 0.9);
+}
+
+/* line 115, ../__compass/sass/global.sass */
+.nav {
+  background: red;
 }

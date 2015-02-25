@@ -5,54 +5,112 @@
 
 
 @import susy
-$total-columns: 12 // a 12-column grid
-$column-width: 5em // each column is 5em wide
-$gutter-width: 1/4// 1em gutters between columns
+
+//SETTINGS
+$total-colums: 12
+$column-width: 4.25em
+$gutter-width: 10px
 $grid-padding: $gutter-width
-$border-box-sizing: true
+$break: 12
+$math: fluid
+$output: fluid
+$flow: ltr
+
+
 
 // PARTIALS
 @import variables
 @import mixins
+@import queries
 
 // DESIGN
 // Base
+
+
 html
 	height: 100%
 	margin: 0
 	padding: 0
 	width: 100%
-	font-size: 1.5em
+	font-size: 1.3em
+	font-weight: lighter
+	font-family: $title
+	box-sizing: border-box
 
 body
-	height: 100%
+	position: relative
+	height: auto
 	width: 100%
-	font-size: 100%
-	color: #FFF
+	color: #fff
 	text-align: center
-
-p
-	color: $wit
-	display: block
-	background: $vlees
-	padding: 50px
-	width: 50%
-	margin: auto
-	margin-top: 25px
-	@include br(10px)
+	background: $turk_1
 
 
-h1
-	@extend p
-	background: $turk
-h2
-	@extend p
-	background: $zwart
-	color: $roze
+nav, header, footer, section,div, #container
+	background: $turk_1
+	box-sizing: border-box
+	overflow: auto
 
-#footer
-	@extend p
-	width: 100%
-	@include br(0px)
+h1,h2,h3,h4,h5,h6
+	padding: 200
+
+header
+	position: relative
+	height: 500px
+	margin-bottom: 5px
+	@media #{$mobile}
+
+nav
 	position: absolute
 	bottom: 0
+	height: 70px
+	line-height: 70px
+	width: 100%
+
+footer
+	width: 100%
+	height: 100px
+	line-height: 100px
+	margin-top: 5px
+
+section
+	min-height: 100px
+	height: auto
+	@include container ($cont-desktop)
+	@media #{$mobile}
+		@include container ($cont-mobile)
+	div
+		min-height: 100px
+		height: auto
+		background: $zwart_10
+		padding: 1em
+		text-align: left
+		font-size: 70%
+		font-weight: lighter
+		margin-top: 5px
+		margin-bottom: 5px
+	.content_1
+		@include span (last 2 of $total-colums)
+		@media #{$mobile}
+			@include span ($total-colums of $total-colums)
+	.content_2
+		@include span (5 of $total-colums)
+		@media #{$mobile}
+			@include span (6 of $total-colums narrow)
+	.content_3
+		@include span (5 of $total-colums)
+		@media #{$mobile}
+			@include span (last 6 of $total-colums narrow)
+	.content_4
+		@include span (10 of $total-colums)
+		@media #{$mobile}
+			@include span ($total-colums of $total-colums)
+			display: none
+
+.grey
+	background: $zwart_3
+
+.black
+	background: $zwart_8
+.nav
+	background: $red_10
