@@ -11,7 +11,6 @@ $total-colums: 12
 $column-width: 4.25em
 $gutter-width: 10px
 $grid-padding: $gutter-width
-$break: 12
 $math: fluid
 $output: fluid
 $flow: ltr
@@ -75,10 +74,11 @@ footer
 section
 	min-height: 100px
 	height: auto
-	margin-top: 10px
 	background: $none
-	@include container ($cont-desktop  12 center fluid)
+	padding: 10px
+	@include container ($cont-desktop  $total-colums center fluid $flow)
 	@media #{$mobile}
+		padding: 0px
 		@include container ($cont-mobile)
 	div
 		min-height: 100px
@@ -89,6 +89,7 @@ section
 		font-size: 70%
 		font-weight: lighter
 		margin-top: 10px
+		// @include br(5px)
 	.content_1
 		@include span (last 2 of $total-colums)
 		@media #{$mobile}
@@ -96,11 +97,11 @@ section
 	.content_2
 		@include span (5 of $total-colums)
 		@media #{$mobile}
-			@include span (6 of $total-colums narrow)
+			@include span (6 of $total-colums)
 	.content_3
 		@include span (5 of $total-colums)
 		@media #{$mobile}
-			@include span (last 6 of $total-colums narrow)
+			@include span (last 6 of $total-colums)
 	.content_4
 		@include span (10 of $total-colums)
 		@media #{$mobile}
