@@ -1,5 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Abel|Cantata+One);
-/* line 14, ../../../../../../Library/Ruby/Gems/1.8/gems/susy-2.1.3/sass/susy/language/susy/_box-sizing.scss */
+/* line 14, ../../../../../../Library/Ruby/Gems/2.0.0/gems/susy-2.1.3/sass/susy/language/susy/_box-sizing.scss */
 *, *:before, *:after {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
@@ -45,7 +45,7 @@ header {
   height: 500px;
 }
 
-/* line 61, ../__compass/sass/global.sass */
+/* line 59, ../__compass/sass/global.sass */
 nav {
   position: absolute;
   bottom: 0;
@@ -54,46 +54,46 @@ nav {
   width: 100%;
 }
 
-/* line 68, ../__compass/sass/global.sass */
+/* line 66, ../__compass/sass/global.sass */
 footer {
   width: 100%;
   height: 300px;
   line-height: 100px;
-  margin-top: 10px;
+  margi-top: 15px;
 }
 
-/* line 74, ../__compass/sass/global.sass */
+/* line 72, ../__compass/sass/global.sass */
 section {
   min-height: 100px;
   height: auto;
   background: transparent;
-  padding: 10px;
+  margin-top: 15px;
   max-width: 1024px;
   margin-left: auto;
   margin-right: auto;
 }
-/* line 12, ../../../../../../Library/Ruby/Gems/1.8/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
+/* line 12, ../../../../../../Library/Ruby/Gems/2.0.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
 section:after {
   content: " ";
   display: block;
   clear: both;
 }
 @media screen and (max-width: 500px) {
-  /* line 74, ../__compass/sass/global.sass */
+  /* line 72, ../__compass/sass/global.sass */
   section {
     padding: 0px;
     max-width: 100%;
     margin-left: auto;
     margin-right: auto;
   }
-  /* line 12, ../../../../../../Library/Ruby/Gems/1.8/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
+  /* line 12, ../../../../../../Library/Ruby/Gems/2.0.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
   section:after {
     content: " ";
     display: block;
     clear: both;
   }
 }
-/* line 83, ../__compass/sass/global.sass */
+/* line 81, ../__compass/sass/global.sass */
 section div {
   min-height: 150px;
   height: auto;
@@ -104,14 +104,14 @@ section div {
   font-weight: lighter;
   margin-top: 10px;
 }
-/* line 93, ../__compass/sass/global.sass */
+/* line 91, ../__compass/sass/global.sass */
 section .content_a1 {
   width: 15.25424%;
   float: right;
   margin-right: 0;
 }
 @media screen and (max-width: 500px) {
-  /* line 93, ../__compass/sass/global.sass */
+  /* line 91, ../__compass/sass/global.sass */
   section .content_a1 {
     width: 100%;
     float: left;
@@ -119,58 +119,57 @@ section .content_a1 {
     margin-right: 0;
   }
 }
-/* line 97, ../__compass/sass/global.sass */
+/* line 95, ../__compass/sass/global.sass */
 section .content_a2 {
   width: 40.67797%;
   float: left;
   margin-right: 1.69492%;
 }
 @media screen and (max-width: 500px) {
-  /* line 97, ../__compass/sass/global.sass */
+  /* line 95, ../__compass/sass/global.sass */
   section .content_a2 {
     width: 49.15254%;
     float: left;
     margin-right: 1.69492%;
   }
 }
-/* line 101, ../__compass/sass/global.sass */
+/* line 99, ../__compass/sass/global.sass */
 section .content_a3 {
   width: 40.67797%;
   float: left;
   margin-right: 1.69492%;
 }
 @media screen and (max-width: 500px) {
-  /* line 101, ../__compass/sass/global.sass */
+  /* line 99, ../__compass/sass/global.sass */
   section .content_a3 {
     width: 49.15254%;
     float: right;
     margin-right: 0;
   }
 }
-/* line 105, ../__compass/sass/global.sass */
+/* line 103, ../__compass/sass/global.sass */
 section .content_a4 {
   width: 83.05085%;
   float: left;
   margin-right: 1.69492%;
 }
 @media screen and (max-width: 500px) {
-  /* line 105, ../__compass/sass/global.sass */
+  /* line 103, ../__compass/sass/global.sass */
   section .content_a4 {
     width: 100%;
     float: left;
     margin-left: 0;
     margin-right: 0;
-    display: none;
   }
 }
-/* line 111, ../__compass/sass/global.sass */
+/* line 109, ../__compass/sass/global.sass */
 section .content_b1 {
   width: 15.25424%;
   float: left;
   margin-right: 1.69492%;
 }
 @media screen and (max-width: 500px) {
-  /* line 111, ../__compass/sass/global.sass */
+  /* line 109, ../__compass/sass/global.sass */
   section .content_b1 {
     width: 100%;
     float: left;
@@ -178,62 +177,61 @@ section .content_b1 {
     margin-right: 0;
   }
 }
-/* line 115, ../__compass/sass/global.sass */
+/* line 113, ../__compass/sass/global.sass */
 section .content_b2 {
   width: 40.67797%;
   float: left;
   margin-right: 1.69492%;
 }
 @media screen and (max-width: 500px) {
-  /* line 115, ../__compass/sass/global.sass */
+  /* line 113, ../__compass/sass/global.sass */
   section .content_b2 {
     width: 49.15254%;
     float: left;
     margin-right: 1.69492%;
   }
 }
-/* line 119, ../__compass/sass/global.sass */
+/* line 117, ../__compass/sass/global.sass */
 section .content_b3 {
   width: 40.67797%;
   float: right;
   margin-right: 0;
 }
 @media screen and (max-width: 500px) {
-  /* line 119, ../__compass/sass/global.sass */
+  /* line 117, ../__compass/sass/global.sass */
   section .content_b3 {
     width: 49.15254%;
     float: right;
     margin-right: 0;
   }
 }
-/* line 123, ../__compass/sass/global.sass */
+/* line 121, ../__compass/sass/global.sass */
 section .content_b4 {
   width: 83.05085%;
   float: right;
   margin-right: 0;
 }
 @media screen and (max-width: 500px) {
-  /* line 123, ../__compass/sass/global.sass */
+  /* line 121, ../__compass/sass/global.sass */
   section .content_b4 {
     width: 100%;
     float: left;
     margin-left: 0;
     margin-right: 0;
-    display: none;
   }
 }
 
-/* line 129, ../__compass/sass/global.sass */
+/* line 127, ../__compass/sass/global.sass */
 .grey {
   background: rgba(0, 0, 0, 0.3);
 }
 
-/* line 131, ../__compass/sass/global.sass */
+/* line 129, ../__compass/sass/global.sass */
 .black {
   background: rgba(0, 0, 0, 0.9);
 }
 
-/* line 133, ../__compass/sass/global.sass */
+/* line 131, ../__compass/sass/global.sass */
 .nav {
   background: red;
 }
