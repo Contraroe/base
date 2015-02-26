@@ -13,5 +13,5 @@ output_style = :expanded  #After dev :compressed or : expanded
 line_comments = true
 
 # Obviously
-preferred_syntax = :sass
+preferred_syntax = :scss
 require 'susy'

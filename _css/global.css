@@ -1,12 +1,12 @@
 @import url(http://fonts.googleapis.com/css?family=Abel|Cantata+One);
-/* line 14, ../../../../../../Library/Ruby/Gems/2.0.0/gems/susy-2.1.3/sass/susy/language/susy/_box-sizing.scss */
-*, *:before, *:after {
+/* line 21, ../../../../../../Library/Ruby/Gems/1.8/gems/susy-2.2.2/sass/susy/language/susy/_box-sizing.scss */
+* *, * *:before, * *:after {
   -moz-box-sizing: border-box;
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
 
-/* line 30, ../__compass/sass/global.sass */
+/* line 23, ../__compass/sass/global.sass */
 html {
   height: 100%;
   margin: 0;
@@ -15,10 +15,9 @@ html {
   font-size: 1.3em;
   font-weight: lighter;
   font-family: sans-serif;
-  box-sizing: border-box;
 }
 
-/* line 40, ../__compass/sass/global.sass */
+/* line 33, ../__compass/sass/global.sass */
 body {
   position: relative;
   height: auto;
@@ -28,24 +27,24 @@ body {
   background: rgba(51, 178, 178, 0.1);
 }
 
-/* line 49, ../__compass/sass/global.sass */
+/* line 42, ../__compass/sass/global.sass */
 nav, header, footer, section, div, #container {
   background: rgba(51, 178, 178, 0.1);
   overflow: auto;
 }
 
-/* line 53, ../__compass/sass/global.sass */
+/* line 46, ../__compass/sass/global.sass */
 h1, h2, h3, h4, h5, h6 {
   padding: 200;
 }
 
-/* line 56, ../__compass/sass/global.sass */
+/* line 49, ../__compass/sass/global.sass */
 header {
   position: relative;
   height: 500px;
 }
 
-/* line 59, ../__compass/sass/global.sass */
+/* line 52, ../__compass/sass/global.sass */
 nav {
   position: absolute;
   bottom: 0;
@@ -54,166 +53,62 @@ nav {
   width: 100%;
 }
 
-/* line 66, ../__compass/sass/global.sass */
+/* line 59, ../__compass/sass/global.sass */
 footer {
   width: 100%;
   height: 300px;
   line-height: 100px;
-  margi-top: 15px;
 }
 
-/* line 72, ../__compass/sass/global.sass */
+/* line 64, ../__compass/sass/global.sass */
 section {
   min-height: 100px;
   height: auto;
   background: transparent;
-  margin-top: 15px;
   max-width: 1024px;
   margin-left: auto;
   margin-right: auto;
 }
-/* line 12, ../../../../../../Library/Ruby/Gems/2.0.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
+/* line 12, ../../../../../../Library/Ruby/Gems/1.8/gems/susy-2.2.2/sass/susy/output/support/_clearfix.scss */
 section:after {
   content: " ";
   display: block;
   clear: both;
 }
 @media screen and (max-width: 500px) {
-  /* line 72, ../__compass/sass/global.sass */
+  /* line 64, ../__compass/sass/global.sass */
   section {
-    padding: 0px;
     max-width: 100%;
     margin-left: auto;
     margin-right: auto;
   }
-  /* line 12, ../../../../../../Library/Ruby/Gems/2.0.0/gems/susy-2.1.3/sass/susy/output/support/_clearfix.scss */
+  /* line 12, ../../../../../../Library/Ruby/Gems/1.8/gems/susy-2.2.2/sass/susy/output/support/_clearfix.scss */
   section:after {
     content: " ";
     display: block;
     clear: both;
   }
 }
-/* line 81, ../__compass/sass/global.sass */
+/* line 71, ../__compass/sass/global.sass */
 section div {
   min-height: 150px;
   height: auto;
   background: rgba(0, 0, 0, 0.1);
-  padding: 1em;
+  padding: 20px;
   text-align: left;
   font-size: 70%;
   font-weight: lighter;
-  margin-top: 10px;
 }
-/* line 91, ../__compass/sass/global.sass */
-section .content_a1 {
+
+/* line 79, ../__compass/sass/global.sass */
+.content_a1 {
   width: 15.25424%;
   float: right;
   margin-right: 0;
 }
 @media screen and (max-width: 500px) {
-  /* line 91, ../__compass/sass/global.sass */
-  section .content_a1 {
-    width: 100%;
-    float: left;
-    margin-left: 0;
-    margin-right: 0;
-  }
-}
-/* line 95, ../__compass/sass/global.sass */
-section .content_a2 {
-  width: 40.67797%;
-  float: left;
-  margin-right: 1.69492%;
-}
-@media screen and (max-width: 500px) {
-  /* line 95, ../__compass/sass/global.sass */
-  section .content_a2 {
-    width: 49.15254%;
-    float: left;
-    margin-right: 1.69492%;
-  }
-}
-/* line 99, ../__compass/sass/global.sass */
-section .content_a3 {
-  width: 40.67797%;
-  float: left;
-  margin-right: 1.69492%;
-}
-@media screen and (max-width: 500px) {
-  /* line 99, ../__compass/sass/global.sass */
-  section .content_a3 {
-    width: 49.15254%;
-    float: right;
-    margin-right: 0;
-  }
-}
-/* line 103, ../__compass/sass/global.sass */
-section .content_a4 {
-  width: 83.05085%;
-  float: left;
-  margin-right: 1.69492%;
-}
-@media screen and (max-width: 500px) {
-  /* line 103, ../__compass/sass/global.sass */
-  section .content_a4 {
-    width: 100%;
-    float: left;
-    margin-left: 0;
-    margin-right: 0;
-  }
-}
-/* line 109, ../__compass/sass/global.sass */
-section .content_b1 {
-  width: 15.25424%;
-  float: left;
-  margin-right: 1.69492%;
-}
-@media screen and (max-width: 500px) {
-  /* line 109, ../__compass/sass/global.sass */
-  section .content_b1 {
-    width: 100%;
-    float: left;
-    margin-left: 0;
-    margin-right: 0;
-  }
-}
-/* line 113, ../__compass/sass/global.sass */
-section .content_b2 {
-  width: 40.67797%;
-  float: left;
-  margin-right: 1.69492%;
-}
-@media screen and (max-width: 500px) {
-  /* line 113, ../__compass/sass/global.sass */
-  section .content_b2 {
-    width: 49.15254%;
-    float: left;
-    margin-right: 1.69492%;
-  }
-}
-/* line 117, ../__compass/sass/global.sass */
-section .content_b3 {
-  width: 40.67797%;
-  float: right;
-  margin-right: 0;
-}
-@media screen and (max-width: 500px) {
-  /* line 117, ../__compass/sass/global.sass */
-  section .content_b3 {
-    width: 49.15254%;
-    float: right;
-    margin-right: 0;
-  }
-}
-/* line 121, ../__compass/sass/global.sass */
-section .content_b4 {
-  width: 83.05085%;
-  float: right;
-  margin-right: 0;
-}
-@media screen and (max-width: 500px) {
-  /* line 121, ../__compass/sass/global.sass */
-  section .content_b4 {
+  /* line 79, ../__compass/sass/global.sass */
+  .content_a1 {
     width: 100%;
     float: left;
     margin-left: 0;
@@ -221,17 +116,125 @@ section .content_b4 {
   }
 }
 
-/* line 127, ../__compass/sass/global.sass */
+/* line 83, ../__compass/sass/global.sass */
+.content_a2 {
+  width: 40.67797%;
+  float: left;
+  margin-right: 1.69492%;
+}
+@media screen and (max-width: 500px) {
+  /* line 83, ../__compass/sass/global.sass */
+  .content_a2 {
+    width: 49.15254%;
+    float: left;
+    margin-right: 1.69492%;
+  }
+}
+
+/* line 87, ../__compass/sass/global.sass */
+.content_a3 {
+  width: 40.67797%;
+  float: left;
+  margin-right: 1.69492%;
+}
+@media screen and (max-width: 500px) {
+  /* line 87, ../__compass/sass/global.sass */
+  .content_a3 {
+    width: 49.15254%;
+    float: right;
+    margin-right: 0;
+  }
+}
+
+/* line 91, ../__compass/sass/global.sass */
+.content_a4 {
+  width: 83.05085%;
+  float: left;
+  margin-right: 1.69492%;
+}
+@media screen and (max-width: 500px) {
+  /* line 91, ../__compass/sass/global.sass */
+  .content_a4 {
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+/* line 97, ../__compass/sass/global.sass */
+.content_b1 {
+  width: 15.25424%;
+  float: left;
+  margin-right: 1.69492%;
+}
+@media screen and (max-width: 500px) {
+  /* line 97, ../__compass/sass/global.sass */
+  .content_b1 {
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+/* line 101, ../__compass/sass/global.sass */
+.content_b2 {
+  width: 40.67797%;
+  float: left;
+  margin-right: 1.69492%;
+}
+@media screen and (max-width: 500px) {
+  /* line 101, ../__compass/sass/global.sass */
+  .content_b2 {
+    width: 49.15254%;
+    float: left;
+    margin-right: 1.69492%;
+  }
+}
+
+/* line 105, ../__compass/sass/global.sass */
+.content_b3 {
+  width: 40.67797%;
+  float: right;
+  margin-right: 0;
+}
+@media screen and (max-width: 500px) {
+  /* line 105, ../__compass/sass/global.sass */
+  .content_b3 {
+    width: 49.15254%;
+    float: right;
+    margin-right: 0;
+  }
+}
+
+/* line 109, ../__compass/sass/global.sass */
+.content_b4 {
+  width: 83.05085%;
+  float: right;
+  margin-right: 0;
+}
+@media screen and (max-width: 500px) {
+  /* line 109, ../__compass/sass/global.sass */
+  .content_b4 {
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+/* line 115, ../__compass/sass/global.sass */
 .grey {
   background: rgba(0, 0, 0, 0.3);
 }
 
-/* line 129, ../__compass/sass/global.sass */
+/* line 117, ../__compass/sass/global.sass */
 .black {
   background: rgba(0, 0, 0, 0.9);
 }
 
-/* line 131, ../__compass/sass/global.sass */
+/* line 119, ../__compass/sass/global.sass */
 .nav {
   background: red;
 }
